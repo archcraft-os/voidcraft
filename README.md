@@ -15,7 +15,8 @@
 - Turns your Void Linux into **Archcraft**
 - Fully configured `openbox` window manager
 - Fully configured `bspwm` window manager
-- Multiple **themes/styles** for both WMs
+- Fully configured `i3wm` window manager **`NEW`**
+- Multiple **themes/styles** for both (openbox and bspwm) WMs
 - Everything else that Archcraft offers
 
 > `Voidcraft` is not an ISO or Void Linux based distribution.
@@ -24,7 +25,22 @@
 
 **`Important`** : Voidcraft is created on the top of `Void Linux Live Base (glibc)(void-live-x86_64-20230628-base.iso)` and It's ***recommended*** that you install this on a fresh installation of Void Linux.
 
-**Last Updated :** `September 15, 2023`
+**First Release :** `September 15, 2023` <br/>
+**Last Updated :** `January 16, 2024`
+
+<details>
+<summary><b>Changelogs</b></summary>
+
+### Changelog : `January 16, 2024 Update`
+- Added `i3wm` window manager
+- Migrated alacritty config to `toml`
+- Updated scripts related to alacritty
+- Updated `polybar` configs, fixed font issue and added `tray` modules
+- Fixed some pipemenus for `openbox`
+- Added better multi-monitor config in `bspwm`
+- Bug fixes, etc
+
+</details>
 
 ## Installation
 
@@ -103,8 +119,23 @@
 
 </details>
 
+<!-- i3wm -->
+
+<details>
+<summary><b>i3wm Desktop</b></summary>
+
+| Rofi : Apps | Terminal | Browser | File Manager | Editor | Rofi : network | Rofi : bluetooth |
+| --- | --- | --- | --- | --- | --- | --- |
+|![img](./images/i3wm-desktop/i3wm_desk_1.png)|![img](./images/i3wm-desktop/i3wm_desk_2.png)|![img](./images/i3wm-desktop/i3wm_desk_3.png)|![img](./images/i3wm-desktop/i3wm_desk_4.png)|![img](./images/i3wm-desktop/i3wm_desk_5.png)|![img](./images/i3wm-desktop/i3wm_desk_6.png)|![img](./images/i3wm-desktop/i3wm_desk_7.png)|
+
+| Rofi : music | Rofi : power | Rofi : screenshot | Rofi : asroot | Rofi : run | Rofi : windows | CLI Apps |
+| --- | --- | --- | --- | --- | --- | --- |
+|![img](./images/i3wm-desktop/i3wm_desk_8.png)|![img](./images/i3wm-desktop/i3wm_desk_9.png)|![img](./images/i3wm-desktop/i3wm_desk_10.png)|![img](./images/i3wm-desktop/i3wm_desk_11.png)|![img](./images/i3wm-desktop/i3wm_desk_12.png)|![img](./images/i3wm-desktop/i3wm_desk_13.png)|![img](./images/i3wm-desktop/i3wm_desk_14.png)|
+
+</details>
+
 ---
 
-- For **Keybindings**, See `~/.config/openbox/rc.xml` and `~/.config/bspwm/sxhkdrc`.
+- For **Keybindings**, See `~/.config/openbox/rc.xml`, `~/.config/bspwm/sxhkdrc` and `~/.config/i3/config.d/02_keybindings.conf`.
 - I Hope you'll enjoy this project.
 - Thank you for supporting Archcraft.
